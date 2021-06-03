@@ -1,0 +1,93 @@
+{
+    "name": "PlayerActionsControl",
+    "maps": [
+        {
+            "name": "Land",
+            "id": "a64729ca-7a9e-4caa-a4d7-eba3bd6be762",
+            "actions": [
+                {
+                    "name": "Sideways",
+                    "type": "PassThrough",
+                    "id": "07d15d15-44b5-4f9e-9c20-c626ae1632fc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "PassThrough",
+                    "id": "9344ba75-dc07-4329-b2f1-9e4f866aba7f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Egil",
+                    "type": "PassThrough",
+                    "id": "6427f762-2552-4afb-8694-7b6002417061",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "ad8fa50e-783f-4706-9cd5-96bc2a7e014b",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sideways",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "9f36b740-80f7-4dc7-8159-1d675d3dfe64",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sideways",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a1b4c711-f800-4bfb-a50b-666db7e98776",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sideways",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "53200d3e-24f0-4e21-abc8-01cd9eb703df",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0549e828-599f-4a32-ad57-da6b2fa61ba7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Egil",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
